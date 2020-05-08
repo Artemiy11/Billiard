@@ -1,0 +1,19 @@
+.video {
+    // background: url('../img/advantages.jpg') center (center / cover) no-repeat;
+    background-color: $dark-light;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 660px;
+    padding: 30px 0;
+    iframe {
+        margin: 0 auto;
+        padding-top: 20px;
+        border: none;
+        background: transparent;
+        width: 800px;
+        height: 600px;
+    }
+    .title {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,48 @@
+.reasons {
+    padding-bottom: 20px;
+    min-height: 800px;
+    background-color: $dark-light;
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: $second-color;
+    border-radius: 100%;
+    overflow-y: hidden;
+    border: 2px solid $dark-light;
+    img {
+        overflow-x: hidden;
+        width: 100%;
+        width: 115px;
+    }
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
+    line-height: 21px;
+    color: $second-color;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 21px;
+}

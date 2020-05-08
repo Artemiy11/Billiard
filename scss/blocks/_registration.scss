@@ -1,0 +1,51 @@
+.registration {
+    label.error {
+        color: red;
+    }
+    min-height: 500px;
+    padding: 50px 0 35px 0;
+    background: url('../img/advantages.jpg') center (center / cover) no-repeat;
+    &__header {
+        color: $second-color;
+        text-align-last: left;
+        padding-top: 0;
+    }
+    &__descr {
+        margin-top: 10px;
+        color: white;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    &__form {
+        margin-top: 20px;
+    }
+    &__input {
+        display: block;
+        width: 365px;
+        height: 56px;
+        margin-top: 17px;
+        font-size: 18px;
+        border: none;
+        padding-left: 5px;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    &__button {
+        width: 365px;
+        height: 56px;
+        margin-top: 17px;
+        font-size: 18px;
+        border: 1px solid $second-color;
+        background-color: transparent;
+        color: $second-color;
+        text-align: center;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 0 0 25px $second-color;
+            background-color: $second-color;
+            color: #fff;
+        }
+    }
+}

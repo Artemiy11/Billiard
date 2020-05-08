@@ -1,0 +1,45 @@
+.timer {
+    height: 700px;
+    padding-top: 160px;
+    background: url('../img/training.jpg') center (center / cover) no-repeat;
+    .title {
+        color: $second-color;
+    }
+    &__action {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        color: #fff;
+    }
+    &__numbers {
+        text-align: center;
+        font-size: 85px;
+        color: $second-color;
+    }
+    &__button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 250px;
+        height: 50px;
+        border-color: $second-color;
+        color: $second-color;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid $second-color;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 0 0 25px $second-color;
+            background-color: $second-color;
+            color: #fff;
+        }
+    }
+    hr {
+        width: 200px;
+        height: 2px;
+        border: none;
+        background-color: $second-color;
+    }
+}

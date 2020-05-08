@@ -1,0 +1,89 @@
+.modal {
+    label.error {
+        text-align: center;
+        padding-top: 10px;
+        color: red;
+        display: block;
+        margin: 0 auto;
+    }
+    .container {
+        width: 600px;
+    }
+    display: none;
+    background: url('../img/advantages.jpg') center (center / cover) no-repeat; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 800px;
+    min-height: 460px;
+    background-color: white;
+    z-index: 4;
+    &__header-text {
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+    }
+    &__close {
+        position: absolute;
+        color: $second-color;
+        right: -30px;
+        top: 4px;
+        font-size: 40px;
+        line-height: 0;
+        cursor: pointer;
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80px;
+        background-color: $second-color;
+        color: white;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+    &__form {
+        margin-top: 30px;
+    }
+    &__input {
+        display: block;
+        margin: 0 auto;
+        width: 365px;
+        height: 56px;
+        margin-top: 17px;
+        font-size: 18px;
+        border: none;
+        padding-left: 5px;
+    }
+    &__button {
+        display: block;
+        margin: 0 auto;
+        width: 365px;
+        height: 56px;
+        margin-top: 17px;
+        margin-bottom: 25px;
+        font-size: 18px;
+        border: 1px solid $second-color;
+        background-color: transparent;
+        color: $second-color;
+        text-align: center;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 0 0 25px $second-color;
+            background-color: $second-color;
+            color: #fff;
+        }
+    }
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}

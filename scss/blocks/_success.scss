@@ -1,0 +1,43 @@
+.success {
+    height: 200px;
+    background: url('../img/advantages.jpg') center (center / cover) no-repeat; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 800px;
+    background-color: white;
+    z-index: 4;
+    display: none;
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        background-color: $second-color;
+        color: white;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    &__close {
+        position: absolute;
+        color: $second-color;
+        right: -30px;
+        top: 4px;
+        font-size: 40px;
+        line-height: 0;
+        cursor: pointer;
+    }
+    &__text {
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+    }
+    .container {
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

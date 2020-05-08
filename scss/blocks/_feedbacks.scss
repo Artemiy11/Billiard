@@ -1,0 +1,33 @@
+.feedbacks {
+    min-height: 700px;
+    background-color: $third-color;
+    padding: 0 5px 30px 5px;
+    &__feedback {
+        display: flex;
+        margin-top: 40px;
+        &_avatar {
+            height: 180px;
+            width: 180px;
+            border-radius: 100%;
+            &__wrapper {
+                height: 180px;
+                width: 180px;
+            }
+        }
+        &_wrapper {
+            margin-left: 40px;
+            &_name {
+                color: $second-color;
+                margin-bottom: 5px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            &_text {
+                color: #fff;
+                width: 100%;
+                font-weight: 200;
+                text-align: justify
+            }
+        }
+    }
+}

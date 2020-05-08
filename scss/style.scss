@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+* {
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+@import 'variables';
+@import 'title';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/video';
+@import 'blocks/reasons';
+@import 'blocks/timer';
+@import 'blocks/inctruction';
+@import 'blocks/map';
+@import 'blocks/modal';
+@import 'blocks/registration';
+@import 'blocks/price';
+@import 'blocks/feedbacks';
+@import 'blocks/success';
+@import 'blocks/slider';
+@import 'media';
